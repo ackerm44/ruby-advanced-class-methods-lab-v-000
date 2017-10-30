@@ -45,8 +45,8 @@ class Song
     @@all.sort_by {|name| name}
   end
 
-  def self.new_from_filename
-    puts self.file.split(" ")
+  def self.new_from_filename(name)
+    puts self.name.split(" ")
   end
 
   def self.create_from_filename
