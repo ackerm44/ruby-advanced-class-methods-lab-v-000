@@ -50,8 +50,8 @@ class Song
     name.delete! ".mp3"
     name.delete! "-"
     array = name.split(/\s\s/)
-    artist_name = array[0]
-    name = array[1]
+    song.artist_name = array[0]
+    song.name = array[1]
 
 
   end
