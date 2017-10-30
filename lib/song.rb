@@ -49,7 +49,7 @@ class Song
     song = self.new
     song.name = name
     name.delete! ".mp3"
-    name.split(/(\s)-(\s)/)
+    name.split(/((\s)-(\s))/)
 
   end
 
