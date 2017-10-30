@@ -50,13 +50,14 @@ class Song
     name.delete! ".mp3"
     name.delete! "-"
     array = name.split(/\s\s/)
-    self.artist_name = array[0]
-    self.name = array[1]
+    artist_name = array[0]
+    name = array[1]
 
 
   end
 
   def self.create_from_filename
+    
   end
 
   def self.destroy_all
