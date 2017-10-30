@@ -47,7 +47,7 @@ class Song
 
   def self.new_from_filename(name)
     self.name.delete(".mp3")
-    
+    name
   end
 
   def self.create_from_filename
