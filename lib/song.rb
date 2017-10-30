@@ -37,7 +37,7 @@ class Song
       if find_by_name(name).include?(name)
         song
       else
-        song.create_by_name(name)
+        create_by_name(name)
       end
   end
 
