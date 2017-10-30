@@ -53,7 +53,8 @@ class Song
     array.each do |item|
       if item == " " || ""
         array.delete item
-    
+      end
+
 
   end
 
