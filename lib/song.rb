@@ -49,7 +49,7 @@ class Song
     song = self.new
     song.name = name
     name.delete(".mp3")
-    
+
   end
 
   def self.create_from_filename
