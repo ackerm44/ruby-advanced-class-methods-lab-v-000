@@ -42,7 +42,7 @@ class Song
   end
 
   def self.alphabetical
-    puts self.all
+    puts @@all
   end
 
   def self.new_from_filename
