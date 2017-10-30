@@ -39,6 +39,6 @@ class Song
       else
         song.create_by_name(name)
       end
-    end
+  end
 
 end
