@@ -54,6 +54,7 @@ class Song
       if item == " " || ""
         array.delete item
       end
+      array
 
 
   end
