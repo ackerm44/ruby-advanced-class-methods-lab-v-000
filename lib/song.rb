@@ -49,7 +49,11 @@ class Song
     song = self.new
     song.name = name
     name.delete! ".mp3"
-    name.split(/((\s)-(\s))/)
+    array = name.split(/(\s)-(\s)/)
+    array.each do |item|
+      if item == " " || ""
+        array.delete item
+    
 
   end
 
