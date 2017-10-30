@@ -48,7 +48,7 @@ class Song
   def self.new_from_filename(name)
     song = self.new
     song.name = name
-    song.name.delete(".mp3")
+    song.delete(".mp3")
 
   end
 
