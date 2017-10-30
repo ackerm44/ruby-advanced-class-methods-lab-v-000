@@ -1,6 +1,6 @@
 class Song
   attr_accessor :name, :artist_name
-  @@all = []
+  @@all = ["One", "Two"]
 
   def self.all
     @@all
@@ -34,7 +34,7 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
-      if find_by_name(name) != nil
+      if find_by_name(name) 
         @name
       else
         create_by_name(name)
