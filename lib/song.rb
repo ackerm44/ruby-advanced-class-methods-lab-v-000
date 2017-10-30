@@ -49,8 +49,7 @@ class Song
     #song = self.new
     name.delete! ".mp3"
     name.delete! "-"
-    name
-    #array = name.split(/(\s)-(\s)/)
+    array = name.split(/*s/)
     #array
 
 
