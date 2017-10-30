@@ -42,7 +42,16 @@ class Song
   end
 
   def self.alphabetical
-    @@all.sort!
+    self.all.sort!
   end
+
+  def self.new_from_filename
+  end
+
+  def self.create_from_filename
+  end
+
+  def self.destroy_all
+    self.all.clear
 
 end
