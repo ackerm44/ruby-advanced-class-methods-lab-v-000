@@ -51,7 +51,7 @@ class Song
     name.delete! "-"
     array = name.split(/\s\s/)
     song.name = array[1]
-
+    song
 
   end
 
